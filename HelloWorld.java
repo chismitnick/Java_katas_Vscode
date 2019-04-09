@@ -1,3 +1,12 @@
+
+
+
+/** Java is a fully object oriented language meaning 
+ every Java program must hav a class declarartion and a main method to begin
+ program execution.
+ */
+
+
 public class HelloWorld {
 
 public static void main(String[]args) {
