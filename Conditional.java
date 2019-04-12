@@ -2,7 +2,7 @@
 
 import Java.lang.*;
 
-
+//Simple class to illustrate COnditional logic
     public class Conditional{
         public static void main(String args[]) {
             int month = 4; // April
