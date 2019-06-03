@@ -32,8 +32,6 @@ else
 return stack[topofstack--];
 }
 }
-
-
 // Implementation of class to test stack methods 
 class SimpleStack {
 
@@ -46,15 +44,13 @@ for(int i=1; i<10; i++)stack1.push(i);
 for(int i=10; i<20; i++)stack2.push(i);
  
 //View numbers in the stack using the pop option
-
 System.out.println("The numbers in the first stack are:");
-for(int i=0;i<7;i++)
+for(int i=0;i<10;i++)
 System.out.println(stack1.pop());
 
 
 System.out.println("The numbers in the second stack are:");
-for(int i=0;i<13;i++)
+for(int i=0;i<10;i++)
 System.out.println(stack2.pop());
-
 }
 }
