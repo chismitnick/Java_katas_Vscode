@@ -1,8 +1,12 @@
 
 
+
+/* A simple java program
+to create an array an access 
+values using the index
+*/
+
 public class Array {
-
-
 public static void main (String[]args) {
 
 
