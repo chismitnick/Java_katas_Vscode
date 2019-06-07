@@ -1,22 +1,27 @@
-// Objects are passed by reference.
-class Test {
+import com.sun.management.VMOption.Origin;
+
+/* A simple program to demostrate how objects are passed by reference.
+When a primitive type is passed to a method ,it is done by call of value 
+Ojetc are implicitly passed by use of call by reference.
+*/
+class Original {
     int a, b;
-    Test(int i, int j) {
+    Original(int i, int j) {
     a = i;
     b = j;
     }
     // pass an object
-    void meth(Test o) {
+    void method1(Original o) {
     o.a *= 2;
     o.b /= 2;
 }
 }
 class PassByReference {
 public static void main(String args[]) {
-Test ob = new Test(15, 20);
+Original ob = new Original(15, 20);
 System.out.println("ob.a and ob.b before call: " +
 ob.a + " " + ob.b);
-ob.meth(ob);
+ob.method1(ob);
 System.out.println("ob.a and ob.b after call: " +
 ob.a + " " + ob.b);
 }

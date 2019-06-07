@@ -14,7 +14,6 @@ class Origin {
 }
 
 class PassByvalue {
-
     public static void main(String[] args) {
         Origin og = new Origin();
        int  x = 12;
