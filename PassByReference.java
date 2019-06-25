@@ -14,7 +14,7 @@ class Original {
     void method1(Original o) {
     o.a *= 2;
     o.b /= 2;
-}
+} //thus file has been edited 
 }
 class PassByReference {
 public static void main(String args[]) {
